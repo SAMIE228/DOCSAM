@@ -1,0 +1,47 @@
+
+body{
+    background-color: #A9D7E9;
+}
+h1{
+    text-align: center;
+}
+form{
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    margin-right: 25%;
+    background-color: #F3F3F3;
+    border-radius: 15px;
+    padding: 20px  ;  
+    
+}
+#bouton { 
+  background-color:  #6BA2CE;
+  color: white;
+  font-size: 20px;
+  border-radius: 7px;
+  height: 50px;
+  width: 100px;
+  border: 2px solid;
+  
+}
+.bloc{
+    justify-content: center;
+}
+.send{
+    text-align: center;
+    color: white;
+}
+
+.input{
+    text-align: left;  
+    display: inline-block;
+  
+   padding-left: 55%;
+}
+.label{
+    text-align: right;  
+    padding-right: 55%;
+    display: inline-block; 
+  
+}

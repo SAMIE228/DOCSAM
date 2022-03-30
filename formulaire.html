@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon formulaire html</title>
+    <link rel="stylesheet" href="/formulaire.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <div>
+        <h1>FORMULAIRE DWWM</h1>
+        <form >
+    <div class="bloc">
+          <div class="label"><label for="nom"> Nom </label></div> 
+        <div class="input"> <input type="texte" placeholder="Entrez votre Nom "> </div> 
+   </div>
+
+    <div class="bloc">
+        <div class="label"> <label for="Email">Email</label></div> 
+        <div class="input"> <input type="text" placeholder="Entrez votre email"></div> 
+    </div>   
+    <div class="bloc">  
+         <div class="label"><label for="info">Indiquez votre satisfaction au cours de 1 à 10</label> </div>
+         <div class="input"><input type="number" min="1" max="10" size="100px" placeholder="Numeros de 1 à 10"> </div>
+    </div>
+     <div class="bloc">
+        <div class="label"> <label for="cname">Qui est votre coach?</label></div> 
+        <div class="input"><select name="ncoach" id="prof">
+            <option value="formateur">Birante</option>
+               <option value="formateur">Malick Ba</option>
+               <option value="formateur">Mamadou</option>
+           </select></div>
+     </div>
+    <div class="bloc">
+         <div class="label"> <p>A quel moment avez-vous cours?</p></div>
+
+        <div class="input"><input type="radio">
+            <label for="">Matin</label><br>
+            <input type="radio">
+            <label for="">Midi</label><br>
+            <input type="radio">
+            <label for="">Soir</label></div><br>
+   </div>
+   <div class="bloc">
+        <div class="label"> <p>Quels outils avez-vous rencontrés jusque là?<br>(sélectionnez tous ce qui s'applique)</p> </div>
+
+    <div class="input"> <input type="checkbox">
+            <label for="css">CSS</label><br>
+            <input type="checkbox">
+            <label for="html">HTML</label><br>
+            <input type="checkbox">
+            <label for="js">JavaScript</label><br>
+            <input type="checkbox">
+            <label for="et">Editeur de texte</label><br>
+            <input type="checkbox">
+            <label for="lc">Ligne de commande</label><br><br></div>
+ </div>
+<div class="bloc">
+     <div class="label"><label for="exp">Décrivez votre expériences jusque là</label></div>
+    <div class="input"><textarea cols="27" rows="5" placeholder="Décrivez votre expérience ici..."></textarea> </div>
+</div>         <br>
+
+<div class="send">
+    <button id="bouton">Envoyer</button>
+</div>
+        </form>
+    </div>
+    
+</body>
+</html>
